@@ -19,31 +19,33 @@
 - Edge
 
 ## ディレクトリ構成例
+```
 main.py
-　|-　setting.ini
-　|-　img（証明書提出用ポジション取得用画像ファイル）
-　　　|-　chrome
-　　　|-　firefox
-　　　|-　ms
-　|- lib
-　　　|-　logwrapper.py
-　　　|-　pyautoguiwrapper.py
-　　　|-　seleniumwrapper.py
-　　　|-　systemspecific.py
-　　　|-　pyautotest.py
-　|- profile（firefox用ユーザプロファイル例）
-　|- scenario（シナリオディレクトリ例）
-　　　|-　chrome
-　　　　　　|-　login.json
-　　　|-　firefox
-　　　|-　ms
-　|- result（結果ディレクトリ例）
-　　　|-　chrome
-　　　　　　|-　login
-　　　　　　　　　|-　result.log
-　　　　　　　　　|-　cookie.pkl
-　　　　　　　　　|-　000.png
-　　　　　　　　　|-　001.png
+  |-  setting.ini
+  |-  img（証明書提出用ポジション取得用画像ファイル）
+  |   |-  chrome
+  |   |-  firefox
+  |   |-  ms
+  |- lib
+  |   |-  logwrapper.py
+  |   |-  pyautoguiwrapper.py
+  |   |-  seleniumwrapper.py
+  |   |-  systemspecific.py
+  |   |-  pyautotest.py
+  |- profile（firefox用ユーザプロファイル例）
+  |- scenario（シナリオディレクトリ例）
+  |   |-  chrome
+  |   |     |-  login.json
+  |   |-  firefox
+  |   |-  ms
+  |- result（結果ディレクトリ例）
+      |-  chrome
+            |-  login
+                  |-  result.log
+                  |-  cookie.pkl
+                  |-  000.png
+                  |-  001.png
+```
 
 ## 内容
 - シナリオディレクトリに配置されたjsonファイルを全て読み込み

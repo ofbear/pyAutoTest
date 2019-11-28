@@ -1,0 +1,20 @@
+{
+    "BROWSE_CONF": {
+        "browse_type": "chrome",
+        "headless": false
+    },
+    "CMDS": [
+        "access",
+        "uid",
+        "password",
+        "submit",
+        "toggle",
+        "logout",
+        "close"
+    ],
+    "PARAMETERS": {
+        "access" : "URL",
+        "uid" : "username",
+        "password": "password"
+    }
+}
